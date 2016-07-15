@@ -7,5 +7,5 @@ def calc_change (n):
       return [x] + calc_change(n - x)
   return []
 
-print(calc_change(94))
-print(calc_change(73))
+print("input: 94 output:", calc_change(94))
+print("input: 73 output:", calc_change(73))
