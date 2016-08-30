@@ -12,7 +12,7 @@ def start():
     return start()
   else:
     print('I\'m thinking...')
-    time.sleep(2)
+    time.sleep(random.uniform(1.7, 2.5))
     cpuChoice = cpuChoose()
     print()
     compareChoices(playerChoice, cpuChoice)
