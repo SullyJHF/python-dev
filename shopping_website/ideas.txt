@@ -1,0 +1,28 @@
+Shopping website
+
+
+Customer
+--------
+bank account
+name
+address
+--
+create order
+add payment
+
+
+
+Order
+-----
+items
+total
+status
+--
+add items
+
+
+
+Item
+----
+name
+price
